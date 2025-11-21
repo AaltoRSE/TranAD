@@ -1,0 +1,22 @@
+[project]
+name = "TranAD"
+version = "0.1.0"
+description = "Anomaly detection models and training code"
+authors = [
+    { name = "TranAD Contributors" }
+]
+dependencies = [
+    "pandas",
+    "tqdm",
+    "matplotlib",
+    "dgl",
+    "numpy",
+    "SciencePlots",
+    "scikit-learn",
+    "openpyxl",
+    "pytest",
+    "torch"
+]
+
+[tool.setuptools]
+packages = ["tranAD"]
